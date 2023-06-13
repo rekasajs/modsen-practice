@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="quiz">
+
+        <div class="quiz_header">
+            <div class="quiz_question">
+                How many planets are in the solar system?
+            </div>
+        </div>
+
+        <div class="quiz_line"></div>
+
+        <div class="quiz_main">
+            <ul class="quiz_list">
+                <li class="quiz_options">Answer 1</li>
+                <li class="quiz_option">Answer 2</li>
+                <li class="quiz_option">Answer 3</li>
+                <li class="quiz_option">Answer 4</li>
+            </ul>
+        </div>
+
+        <div class="quiz_line"></div>
+
+        <div class="quiz_footer">
+            <div class="quiz_total">
+
+            </div>
+            <button class="quiz_next-btn">
+                Next
+            </button>
+        </div>
+
+    </div>
+
+    <div class="result_window hidden">
+        <div class="result_title">
+            <img src="../img/end.png" alt="end" class="end_icon">
+            Test passed!
+        </div>
+
+        <div class="quiz_line"></div>
+
+        <div class="results">
+            Correct answers: 1 of 7
+        </div>
+
+        <button class="return_btn" onclick="location.reload()">
+            Again
+        </button>
+    </div>
+
+    <script src="../js/questions.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
