@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="quiz">
+            <header class="header">
+                <h1 class="quiz_question">
+                    How many planets are in the solar system?
+                </h1>
+            </header>
+
+            <main class="main">
+                <ul class="quiz_list"></ul>
+            </main>
+
+            <footer class="footer">
+                <h2 class="quiz_total"></h2>
+                <button class="quiz_next-btn">Next</button>
+            </footer>
+        </div>
+
+        <div class="result_window hidden">
+            <header class="result_header">
+                <h2 class="result_title">Test passed!</h2>
+            </header>
+
+            <main class="result_main"></main>
+
+            <button class="return_btn" onclick="location.reload()">Again</button>
+        </div>
+
+        <script src="constants/questions.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
